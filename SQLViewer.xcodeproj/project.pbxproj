@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93635EE1CB1A8DC00168D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93635ED1CB1A8DC00168D24 /* AppDelegate.swift */; };
+		C93635F01CB1A8DC00168D24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93635EF1CB1A8DC00168D24 /* ViewController.swift */; };
+		C93635F21CB1A8DC00168D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93635F11CB1A8DC00168D24 /* Assets.xcassets */; };
+		C93635FD1CB1A92E00168D24 /* sqltableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93635FC1CB1A92E00168D24 /* sqltableDelegate.swift */; };
+		C93635FF1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93635FE1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift */; };
+		C93636041CB1A9D400168D24 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C93636031CB1A9D400168D24 /* libsqlite3.0.tbd */; };
+		C93636061CB1AAB300168D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93636051CB1AAB300168D24 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C93635EA1CB1A8DC00168D24 /* SQLViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93635ED1CB1A8DC00168D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C93635EF1CB1A8DC00168D24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C93635F11CB1A8DC00168D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C93635F61CB1A8DC00168D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93635FC1CB1A92E00168D24 /* sqltableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sqltableDelegate.swift; sourceTree = "<group>"; };
+		C93635FE1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDatabaseHelper.swift; sourceTree = "<group>"; };
+		C93636001CB1A97200168D24 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		C93636031CB1A9D400168D24 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C93636051CB1AAB300168D24 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C93635E71CB1A8DC00168D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93636041CB1A9D400168D24 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C93635E11CB1A8DC00168D24 = {
+			isa = PBXGroup;
+			children = (
+				C93636031CB1A9D400168D24 /* libsqlite3.0.tbd */,
+				C93635EC1CB1A8DC00168D24 /* SQLViewer */,
+				C93635EB1CB1A8DC00168D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C93635EB1CB1A8DC00168D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93635EA1CB1A8DC00168D24 /* SQLViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93635EC1CB1A8DC00168D24 /* SQLViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C93636001CB1A97200168D24 /* BridgingHeader.h */,
+				C93635ED1CB1A8DC00168D24 /* AppDelegate.swift */,
+				C93635EF1CB1A8DC00168D24 /* ViewController.swift */,
+				C93635FC1CB1A92E00168D24 /* sqltableDelegate.swift */,
+				C93635FE1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift */,
+				C93635F11CB1A8DC00168D24 /* Assets.xcassets */,
+				C93636051CB1AAB300168D24 /* Main.storyboard */,
+				C93635F61CB1A8DC00168D24 /* Info.plist */,
+			);
+			path = SQLViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C93635E91CB1A8DC00168D24 /* SQLViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93635F91CB1A8DC00168D24 /* Build configuration list for PBXNativeTarget "SQLViewer" */;
+			buildPhases = (
+				C93635E61CB1A8DC00168D24 /* Sources */,
+				C93635E71CB1A8DC00168D24 /* Frameworks */,
+				C93635E81CB1A8DC00168D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLViewer;
+			productName = SQLViewer;
+			productReference = C93635EA1CB1A8DC00168D24 /* SQLViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C93635E21CB1A8DC00168D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matthew Schlegel";
+				TargetAttributes = {
+					C93635E91CB1A8DC00168D24 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C93635E51CB1A8DC00168D24 /* Build configuration list for PBXProject "SQLViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C93635E11CB1A8DC00168D24;
+			productRefGroup = C93635EB1CB1A8DC00168D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93635E91CB1A8DC00168D24 /* SQLViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C93635E81CB1A8DC00168D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93635F21CB1A8DC00168D24 /* Assets.xcassets in Resources */,
+				C93636061CB1AAB300168D24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93635E61CB1A8DC00168D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93635FF1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift in Sources */,
+				C93635FD1CB1A92E00168D24 /* sqltableDelegate.swift in Sources */,
+				C93635F01CB1A8DC00168D24 /* ViewController.swift in Sources */,
+				C93635EE1CB1A8DC00168D24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C93635F71CB1A8DC00168D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C93635F81CB1A8DC00168D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C93635FA1CB1A8DC00168D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQLViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkschleg.SQLViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SQLViewer/BridgingHeader.h;
+			};
+			name = Debug;
+		};
+		C93635FB1CB1A8DC00168D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQLViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkschleg.SQLViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SQLViewer/BridgingHeader.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93635E51CB1A8DC00168D24 /* Build configuration list for PBXProject "SQLViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93635F71CB1A8DC00168D24 /* Debug */,
+				C93635F81CB1A8DC00168D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93635F91CB1A8DC00168D24 /* Build configuration list for PBXNativeTarget "SQLViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93635FA1CB1A8DC00168D24 /* Debug */,
+				C93635FB1CB1A8DC00168D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C93635E21CB1A8DC00168D24 /* Project object */;
+}
