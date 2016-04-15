@@ -116,6 +116,9 @@ class sqlTableDelegate: NSObject, NSTableViewDataSource, NSTableViewDelegate {
 		
 	}
 	
+	
+	
+	
 	func tableViewSelectionDidChange(notification: NSNotification) {
 		if((notification.object as? NSTableView)?.identifier == "sqlite_tables"){
 			print((notification.object as? NSTableView)?.selectedRow)

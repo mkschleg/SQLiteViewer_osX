@@ -14,6 +14,7 @@
 		C93635FF1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93635FE1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift */; };
 		C93636041CB1A9D400168D24 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C93636031CB1A9D400168D24 /* libsqlite3.0.tbd */; };
 		C93636061CB1AAB300168D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93636051CB1AAB300168D24 /* Main.storyboard */; };
+		C9C60C141CC197520079947E /* sqlQueryTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C60C131CC197520079947E /* sqlQueryTableDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C93636001CB1A97200168D24 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		C93636031CB1A9D400168D24 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		C93636051CB1AAB300168D24 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C9C60C131CC197520079947E /* sqlQueryTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sqlQueryTableDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				C93635ED1CB1A8DC00168D24 /* AppDelegate.swift */,
 				C93635EF1CB1A8DC00168D24 /* ViewController.swift */,
 				C93635FC1CB1A92E00168D24 /* sqltableDelegate.swift */,
+				C9C60C131CC197520079947E /* sqlQueryTableDelegate.swift */,
 				C93635FE1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift */,
 				C93635F11CB1A8DC00168D24 /* Assets.xcassets */,
 				C93636051CB1AAB300168D24 /* Main.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				C93635FF1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift in Sources */,
 				C93635FD1CB1A92E00168D24 /* sqltableDelegate.swift in Sources */,
+				C9C60C141CC197520079947E /* sqlQueryTableDelegate.swift in Sources */,
 				C93635F01CB1A8DC00168D24 /* ViewController.swift in Sources */,
 				C93635EE1CB1A8DC00168D24 /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +292,7 @@
 				C93635FB1CB1A8DC00168D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

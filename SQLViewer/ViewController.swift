@@ -12,8 +12,10 @@ class ViewController: NSViewController {
 	
 	@IBOutlet weak var tableView_Tables: NSTableView!
 	@IBOutlet weak var tableView_Data: NSTableView!
+	@IBOutlet weak var tableView_Query: NSTableView!
 	
 	@IBOutlet weak var tableHeaderView_Data: NSTableHeaderView!
+	@IBOutlet weak var textBox_Query: NSTextField!
 	
 	
 	@IBAction func openDatabase(sender: AnyObject) {
@@ -47,12 +49,11 @@ class ViewController: NSViewController {
 		
 	}
 	
-	@IBAction func closeDatabase(sender: AnyObject) {
-		SQLiteDatabaseHelper.instance.close()
-		(tableView_Data.delegate() as? sqlTableDelegate)?.removeData()
-		(tableView_Tables.delegate() as? sqlTableDelegate)?.removeData()
-		tableView_Data.reloadData()
-		tableView_Tables.reloadData()
+	@IBAction func runQuery(sender: AnyObject) {
+		let queryStr = textBox_Query.stringValue
+		(tableView_Query.delegate() as? sqlQueryTableDelegate)?.runQuery(queryStr)
+		tableView_Query.reloadData()
+		
 	}
 	
 	private func fillTablesTable(){
