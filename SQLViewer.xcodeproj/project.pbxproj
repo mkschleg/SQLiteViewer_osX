@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C913785D1CC40D750059F961 /* SQLiteDatabaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913785C1CC40D750059F961 /* SQLiteDatabaseData.swift */; };
 		C93635EE1CB1A8DC00168D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93635ED1CB1A8DC00168D24 /* AppDelegate.swift */; };
 		C93635F01CB1A8DC00168D24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93635EF1CB1A8DC00168D24 /* ViewController.swift */; };
 		C93635F21CB1A8DC00168D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93635F11CB1A8DC00168D24 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C913785C1CC40D750059F961 /* SQLiteDatabaseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDatabaseData.swift; sourceTree = "<group>"; };
 		C93635EA1CB1A8DC00168D24 /* SQLViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93635ED1CB1A8DC00168D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C93635EF1CB1A8DC00168D24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				C93635FC1CB1A92E00168D24 /* sqltableDelegate.swift */,
 				C9C60C131CC197520079947E /* sqlQueryTableDelegate.swift */,
 				C93635FE1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift */,
+				C913785C1CC40D750059F961 /* SQLiteDatabaseData.swift */,
 				C93635F11CB1A8DC00168D24 /* Assets.xcassets */,
 				C93636051CB1AAB300168D24 /* Main.storyboard */,
 				C93635F61CB1A8DC00168D24 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				C93635FF1CB1A93F00168D24 /* SQLiteDatabaseHelper.swift in Sources */,
 				C93635FD1CB1A92E00168D24 /* sqltableDelegate.swift in Sources */,
+				C913785D1CC40D750059F961 /* SQLiteDatabaseData.swift in Sources */,
 				C9C60C141CC197520079947E /* sqlQueryTableDelegate.swift in Sources */,
 				C93635F01CB1A8DC00168D24 /* ViewController.swift in Sources */,
 				C93635EE1CB1A8DC00168D24 /* AppDelegate.swift in Sources */,

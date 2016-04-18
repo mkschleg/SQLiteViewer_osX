@@ -56,10 +56,11 @@ class SQLiteDatabaseHelper{
 		}
 		
 		var tables: [String] = [String]()
+		tables.append("sqlite_master")
 		
 		while sqlite3_step(statement) == SQLITE_ROW{
 			let tableName = String.fromCString(UnsafePointer<Int8>(sqlite3_column_text(statement, 0)))
-			if (tableName != nil) {tables.append(tableName!); print(tableName!)}
+			if (tableName != nil) {tables.append(tableName!)}
 		}
 		
 		if sqlite3_finalize(statement) != SQLITE_OK{
